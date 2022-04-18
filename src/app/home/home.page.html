@@ -1,20 +1,25 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content>
+  <div class="content-main">
+    <form (ngSubmit)="login()" class="content-form">
+      <div class="content-title">
+        Bienvenido
+      </div>
+      <div class="content-img">
+        <img src="../../assets/images/logo-aguacates4.png" class="content-img-logo">
+      </div>
+      <div class="content-inputs">
+        <div class="content-input-user">
+          <ion-label>Usuario</ion-label>
+          <ion-input type="text" [(ngModel)]="user" name="user" placeholder="Introduce usuario" required></ion-input>
+        </div>
+        <div class="content-input-password">
+          <ion-label>Contraseña</ion-label>
+          <ion-input type="password" [(ngModel)]="password" name="password" placeholder="Introduce contraseña" required></ion-input>
+        </div>
+      </div>
+      <div class="content-btn">
+        <ion-button type="submit" color="turquesa" expand="block">Iniciar sesión</ion-button>
+      </div>
+    </form>
   </div>
 </ion-content>

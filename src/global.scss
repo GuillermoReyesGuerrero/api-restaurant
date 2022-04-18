@@ -24,3 +24,34 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+// body
+// search
+// .searchuser{
+//     --background: black !important
+// }
+// ALERTS LOGIN
+.alerColorError {
+    --background: red !important;
+}
+
+.alertST {
+    padding-left: 30px !important;
+    font-size: 20px !important;
+    color: white !important;
+}
+.alertSTU {
+    padding-left: 10px !important;
+    font-size: 20px !important;
+    color: white !important;
+}
+.alertP {
+    color: white !important;
+}
+.alerColorButtonCancel {
+    color: black !important;
+    text-transform: capitalize !important;
+    background-color: white !important;
+    border: 1px solid white !important;
+    border-radius: 1rem !important;
+}
