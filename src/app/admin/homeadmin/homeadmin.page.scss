@@ -1,0 +1,228 @@
+.main-dashboard{
+    height: 100%;
+}
+.navbar{
+    background: #233655 !important;
+}
+// page ipad
+@media (max-width: 1200px){
+    .text-logo{
+        margin-top: 10px;
+        color: white;
+        font-weight: bold !important;
+        font-size: 20px;
+    }
+    .list-menu{
+        margin-top: 100px;
+        
+    }
+    .list-menu-ion{
+        background: #233655 !important;
+    }
+    ion-item{
+        --background: #233655 !important;
+        --background-hover: red !important;
+        --background-hover-opacity: red !important;
+    }
+    .text-item{
+        color: white;
+        font-weight: bold !important;
+        font-size: 16px;
+    }
+    .icons-list{
+        color: white !important;
+        font-weight: bold !important;
+        font-size: 30px !important;
+    }
+    .btn-button-list{
+        --background: #233655 !important;
+        --background-hover: red !important;
+        --background-hover-opacity: red !important;
+        width: 100%;
+        text-align: left !important;
+        align-content: left !important;
+        align-items: left !important;
+    }
+    .cont-order-total{
+        width: 250px;
+        height: 150px;
+        background: #E57C39 !important;
+        border-radius: 1rem !important;
+        margin-left: 30px;
+        // position: relative;
+    }
+    .cont-order-count{
+        text-align: center !important;
+        font-weight: bold !important;
+        font-size: 40px;
+    }
+    .cont-order-name{
+        text-align: center !important;
+        margin-top: 30px;
+        font-weight: bold !important;
+        font-size: 25px;
+    }
+    .cont-mesas-total{
+        width: 250px;
+        height: 150px;
+        background: #E57C39 !important;
+        border-radius: 1rem !important;
+        margin-left: 30px;
+        // position: relative;
+    }
+    .cont-mesas-count{
+        text-align: center !important;
+        font-weight: bold !important;
+        font-size: 40px;
+    }
+    .cont-mesas-name{
+        text-align: center !important;
+        margin-top: 30px;
+        font-weight: bold !important;
+        font-size: 25px;
+    }
+    .cont-pedidos-total{
+        width: 250px;
+        height: 150px;
+        background: #E57C39 !important;
+        border-radius: 1rem !important;
+        margin-left: 30px;
+        // position: relative;
+    }
+    .cont-pedidos-count{
+        text-align: center !important;
+        font-weight: bold !important;
+        font-size: 40px;
+    }
+    .cont-pedidos-name{
+        text-align: center !important;
+        margin-top: 30px;
+        font-weight: bold !important;
+        font-size: 25px;
+    }
+}
+// page complet
+@media (min-width: 1250px){
+    .text-logo{
+        margin-top: 10px;
+        color: white;
+        font-weight: bold !important;
+        font-size: 24px;
+    }
+    .list-menu{
+        margin-top: 150px;
+        
+    }
+    .list-menu-ion{
+        background: #233655 !important;
+    }
+    ion-item{
+        --background: #233655 !important;
+        --background-hover: red !important;
+        --background-hover-opacity: red !important;
+    }
+    .text-item{
+        color: white;
+        font-weight: bold !important;
+        font-size: 16px;
+    }
+    .icons-list{
+        color: white !important;
+        font-weight: bold !important;
+        font-size: 30px !important;
+    }
+    .btn-button-list{
+        --background: #233655 !important;
+        --background-hover: red !important;
+        --background-hover-opacity: red !important;
+        width: 100%;
+        text-align: left !important;
+        align-content: left !important;
+        align-items: left !important;
+    }
+    .cont-order-total{
+        width: 350px;
+        height: 200px;
+        background: #E57C39 !important;
+        border-radius: 1rem !important;
+        margin-left: 30px;
+        // position: relative;
+    }
+    .cont-order-count{
+        text-align: center !important;
+        font-weight: bold !important;
+        font-size: 50px;
+    }
+    .cont-order-name{
+        text-align: center !important;
+        margin-top: 30px;
+        font-weight: bold !important;
+        font-size: 30px;
+    }
+    .cont-mesas-total{
+        width: 350px;
+        height: 200px;
+        background: #E57C39 !important;
+        border-radius: 1rem !important;
+        margin-left: 30px;
+        // position: relative;
+    }
+    .cont-mesas-count{
+        text-align: center !important;
+        font-weight: bold !important;
+        font-size: 50px;
+    }
+    .cont-mesas-name{
+        text-align: center !important;
+        margin-top: 30px;
+        font-weight: bold !important;
+        font-size: 30px;
+    }
+    .cont-pedidos-total{
+        width: 350px;
+        height: 200px;
+        background: #E57C39 !important;
+        border-radius: 1rem !important;
+        margin-left: 30px;
+        // position: relative;
+    }
+    .cont-pedidos-count{
+        text-align: center !important;
+        font-weight: bold !important;
+        font-size: 50px;
+    }
+    .cont-pedidos-name{
+        text-align: center !important;
+        margin-top: 30px;
+        font-weight: bold !important;
+        font-size: 30px;
+    }
+}
+.main-menu{
+    height: 100%;
+    background: #233655;
+}
+.main-logo{
+    width: 100% !important;
+    height: 53px;
+    text-align: center;
+    background: red;
+    
+}
+// .text-logo{
+//     margin-top: 10px;
+//     color: black;
+//     font-weight: bold !important;
+//     font-size: 24px;
+// }
+.list-group{
+    margin-top: 100px !important;
+}
+// css dashboard main
+.container-main{
+    display: flex !important;
+}
+.main-dash{
+    height: 100%;
+    // background:yellow !important;
+}

@@ -1,6 +1,6 @@
 <div class="row main-dashboard">
   <!-- main menu -->
-  <div class="col-sm-2 main-menu"  id="listmenu">
+  <div class="col-sm-2 main-menu">
     <div class="main-logo">
       <label class="text-logo">RESTAURANTE</label>
     </div>
@@ -106,42 +106,36 @@
       <div class="container-fluid">
         <div class="navbar-header">
           <!-- <a class="navbar-brand" href="#">WebSiteName</a> -->
-          <ion-button class="btn-button-list" (click)="blockmenu()">
+          <!-- <ion-button class="btn-button-list" (click)="blockmenu()">
             <ion-icon name="list-outline" slot="start" class="icons-list"></ion-icon>
-          </ion-button>
+          </ion-button> -->
+          <ion-label class="navbar-brand">Mesas</ion-label>
         </div>
   
         <ul class="nav navbar-nav navbar-right">
           <ion-button class="btn-button-list">
             <ion-icon name="log-out-outline" slot="start" class="icons-list"></ion-icon>
-            Cerrar Sesion
+            Agregar mesa
           </ion-button>
         </ul>
       </div>
     </nav>
     <div class="container-main">
-      <div class="cont-order-total">
-        <div class="cont-order-count">
-          <label for="">10</label>
-        </div>
-        <div class="cont-order-name">
-          <label for="">Ordenes Totales</label>
-        </div>
-      </div>
-      <div class="cont-mesas-total">
-        <div class="cont-mesas-count">
-          <label for="">2</label>
-        </div>
-        <div class="cont-mesas-name">
-          <label for="">Mesas Ocupadas</label>
-        </div>
-      </div>
-      <div class="cont-pedidos-total">
-        <div class="cont-pedidos-count">
-          <label for="">2</label>
-        </div>
-        <div class="cont-pedidos-name">
-          <label for="">Pedidos Pendientes</label>
+      <div>
+        <div class="grid-mesas">
+          <div class="item" *ngFor="let mesas of mesasdata">
+            Mesa {{mesas.id}}
+            <br>
+            <div *ngIf="mesas.estado == 'disponible'">
+              <img src={{imglibre}} class="imgmesa">
+              <!-- <div>
+                <ion-button color="azul" class="login_btn" (click)="addComanda(mesas)">Agregar comanda</ion-button>
+              </div> -->
+            </div>
+            <div *ngIf="mesas.estado == 'ocupado'">
+              <img src={{imgocupado}} class="imgmesa">
+            </div>
+          </div>
         </div>
       </div>
     </div>

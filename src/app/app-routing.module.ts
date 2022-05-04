@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'homeadmin',
     pathMatch: 'full'
   },
   {
@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'homemesero',
     loadChildren: () => import('./mesero/homemesero/homemesero.module').then( m => m.HomemeseroPageModule)
+  },
+  {
+    path: 'mesasadmin',
+    loadChildren: () => import('./admin/mesasadmin/mesasadmin.module').then( m => m.MesasadminPageModule)
   },
 ];
 
